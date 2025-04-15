@@ -7,6 +7,10 @@ const bottomBtn = style({
   width: '100%',
   padding: '12px',
   bottom: 0,
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '1rem',
+  alignItems: 'center',
 });
 
 const btn = style({
@@ -25,7 +29,7 @@ const box = style({
   display: 'flex',
   padding: '12px',
   flexDirection: 'column',
-  gap: '12px',
+  gap: '24px',
   borderRadius: '2rem',
   backgroundColor: '#fff',
 });
