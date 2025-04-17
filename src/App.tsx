@@ -31,7 +31,7 @@ export const App = () => {
       carousel: '',
       subscription: selected === 'На 1 месяц' ? 'month' : 'year',
     }).then(() => {
-      // LS.setItem(LSKeys.ShowThx, true);
+      LS.setItem(LSKeys.ShowThx, true);
       setThx(true);
       setLoading(false);
     });
